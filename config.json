@@ -1,0 +1,13 @@
+{
+  "project_title": "Sensor Calibration Log",
+  "goal": "Track calibration scores and flag drifting sensors.",
+  "entity_name": "sensor",
+  "amount_label": "drift_ppm",
+  "score_label": "stability_score",
+  "categories": [
+    "temp",
+    "pressure",
+    "flow",
+    "vibration"
+  ]
+}

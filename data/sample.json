@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "sensor-01",
+      "name": "sensor_01",
+      "category": "temp",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-02",
+      "name": "sensor_02",
+      "category": "pressure",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-03",
+      "name": "sensor_03",
+      "category": "flow",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-04",
+      "name": "sensor_04",
+      "category": "vibration",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "sensor-05",
+      "name": "sensor_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-06",
+      "name": "sensor_06",
+      "category": "pressure",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-07",
+      "name": "sensor_07",
+      "category": "flow",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-08",
+      "name": "sensor_08",
+      "category": "vibration",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "sensor-09",
+      "name": "sensor_09",
+      "category": "temp",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-10",
+      "name": "sensor_10",
+      "category": "pressure",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-11",
+      "name": "sensor_11",
+      "category": "flow",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "sensor-12",
+      "name": "sensor_12",
+      "category": "vibration",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "sensor-12",
+    "issue_count": 1
+  }
+}
